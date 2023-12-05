@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+
+            <TextView
+                android:text="Hóa Đơn: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNgay"
+                android:layout_width="wrap_content"
+                android:hint="Ngày Ghi"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Khách Hàng: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtKhachHang"
+                android:layout_width="wrap_content"
+                android:hint="Khách hàng"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Số Hóa Đơn: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSoHoaDon"
+                android:hint="Số Hóa Đơn"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:text="Số Cũ "
+            android:textColor="#000011"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+            <TextView
+                android:text="Số Mới "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        <TextView
+            android:text="Tiêu Thụ"
+            android:textColor="#000011"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txtSocu"
+                android:layout_marginLeft="10dp"
+                android:hint="số cũ"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSomoi"
+                android:layout_width="77dp"
+                android:hint="số mới"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtTieuThu"
+                android:hint="tiêu thụ"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:text="Tiền Điện "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="100dp"
+                android:text="Tiền Thuế "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtTienDien"
+                android:layout_marginLeft="40dp"
+                android:hint="Tiền điện"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtTienThue"
+                android:layout_marginLeft="100dp"
+                android:hint="Tiền thuế"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Tổng tiền: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTongtien"
+                android:hint="Tổng tiền"
+                android:textColor="#FF0000"
+                android:textSize="20dp" />
+        </TableRow>
+        <Button
+            android:id="@+id/btnthanhtoanKH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:text="Thanh Toán" />
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppGhiDien</string>
+    <string name="tinhtp">Chọn Tỉnh/Thành Phố</string>
+    <string name="action_addNV">Thêm Nhân Viên</string>
+    <string name="action_ListHD">Hóa Đơn</string>
+    <string name="action_watch">Thêm Đồng Hồ</string>
+    <string name="action_addHome">Thêm Nhà</string>
+</resources>

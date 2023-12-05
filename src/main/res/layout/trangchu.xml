@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound_intro"
+    tools:context=".HoaDon">
+
+    <TextView
+        android:id="@+id/tv_tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Tỉnh/Thành Phố"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_TinhTP"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_tp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <TextView
+        android:id="@+id/tv_qh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Quận/Huyện"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_QH"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_tp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@android:drawable/btn_dropdown" />
+    <TextView
+        android:id="@+id/tv_px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Quận/Huyện"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_PX"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_tp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <ListView
+        android:id="@+id/ListViewHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"></ListView>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound_intro"
+    tools:context=".MainActivity">
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnhoadon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="Hóa Đơn"
+            app:backgroundTint="@color/design_default_color_secondary">
+        </Button>
+        <Button
+            android:id="@+id/btnnha"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="70dp"
+            app:backgroundTint="@color/design_default_color_secondary"
+            android:text="Nhà">
+        </Button>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnDH"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="Đồng hồ"
+            app:backgroundTint="@color/design_default_color_secondary">
+        </Button>
+        <Button
+            android:id="@+id/btnghidien"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="70dp"
+            app:backgroundTint="@color/design_default_color_secondary"
+            android:text="Ghi điện">
+        </Button>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound_intro">
+        <TextView
+            android:id="@+id/tv_tp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Chọn Tỉnh/Thành Phố"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/spinner_TinhTPP"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_tp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:id="@+id/tv_qh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:text="Chọn Quận/Huyện"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spinner_QHH"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_tp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:id="@+id/tv_px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:text="Chọn Quận/Huyện"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spinner_PXX"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_tp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:id="@+id/tv_madh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:text="Chọn Mã Đồng Hồ"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/spinner_MaDH"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_tp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+
+    <TextView
+        android:id="@+id/tv_socu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:text="Chỉ Số cũ"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtChiSoCu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:enabled="false"
+        android:focusable="false"
+        android:hint="Chỉ số cũ"
+        android:inputType="none"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tv_somoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:text="Chỉ Số mới"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtChiSoMoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="310dp"
+        android:hint="Nhập chỉ số mới" />
+
+    <TextView
+        android:id="@+id/tv_sotieuthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:text="Tiêu thụ"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtChiSoTieuThu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="390dp"
+        android:enabled="false"
+        android:focusable="false"
+        android:hint="Chỉ số tiêu thụ"
+        android:inputType="none"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tv_tien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:text="Thành tiền"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtThanhTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="430dp"
+        android:enabled="false"
+        android:focusable="false"
+        android:hint="Tổng tiền"
+        android:inputType="none"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tv_caodiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="530dp"
+        android:text="Cao điểm"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtCaoDiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="510dp"
+        android:enabled="false"
+        android:hint="Nhập chỉ số cao điểm" />
+
+    <TextView
+        android:id="@+id/tv_binhthuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="490dp"
+        android:text="Bình Thường"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtBinhThuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="470dp"
+        android:enabled="false"
+        android:hint="Nhập chỉ số bình thường" />
+
+    <TextView
+        android:id="@+id/tv_thapdiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="570dp"
+        android:text="Thấp điểm"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtThapDiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="550dp"
+        android:enabled="false"
+        android:hint="Nhập chỉ số thấp điểm" />
+
+    <Button
+        android:id="@+id/btnAddHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="600dp"
+        android:text="Lưu" />
+
+        <Switch
+            android:id="@+id/nutCoDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="300dp"
+            android:text="Điện Tử" />
+
+
+</RelativeLayout>

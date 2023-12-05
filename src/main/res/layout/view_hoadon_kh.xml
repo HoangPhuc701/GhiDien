@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:text="Mã Khách Hàng: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtMAKH"
+                android:textSize="20dp"
+                android:hint="Mã khách hàng" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Địa chỉ: "
+                android:textColor="#000011"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtDIACHIkh"
+                android:textSize="20dp"
+                android:hint="Địa chỉ nhà" />
+        </TableRow>
+        <ListView
+            android:id="@+id/ListViewHoaDonKH"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"></ListView>
+    </TableLayout>
+</LinearLayout>
